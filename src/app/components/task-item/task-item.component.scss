@@ -1,0 +1,16 @@
+.task {
+  background-color: whitesmoke;
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 6px;
+  .remainder {
+    border-left: 8px solid rgb(0, 169, 0);
+  }
+  > h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 800;
+  }
+}
