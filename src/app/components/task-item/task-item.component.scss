@@ -4,8 +4,13 @@
   padding: 10px 20px;
   cursor: pointer;
   border-radius: 6px;
-  .remainder {
-    border-left: 8px solid rgb(0, 169, 0);
+  border-bottom: 1px solid transparent;
+  border-left: 3px solid transparent;
+  transition: border 0.3s;
+
+  &.reminder {
+    border-left: 3px solid rgb(0, 169, 0);
+    border-bottom: 1px solid rgb(0, 169, 0);
   }
   > h3 {
     display: flex;
