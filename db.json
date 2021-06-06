@@ -15,7 +15,7 @@
     {
       "text": "t 3",
       "day": "fasdfads",
-      "reminder": false,
+      "reminder": true,
       "id": 3
     },
     {
